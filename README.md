@@ -4,6 +4,8 @@ Demo project for triggering "can't redefine field" error in Hudi
 ### Run the demo
 
 ```shell
+./mvnw clean package
+
 ./mvnw exec:exec -Ddemo=1
 ./mvnw exec:exec -Ddemo=2
 ```

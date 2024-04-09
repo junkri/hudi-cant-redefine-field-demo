@@ -53,12 +53,12 @@
             <groupId>org.apache.hudi</groupId>
             <artifactId>hudi-spark3-bundle_2.12</artifactId>
             <version>0.14.1</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.parquet</groupId>
-                    <artifactId>parquet-avro</artifactId>
-                </exclusion>
-            </exclusions>
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>org.apache.parquet</groupId>-->
+<!--                    <artifactId>parquet-avro</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
         </dependency>
     </dependencies>
 
