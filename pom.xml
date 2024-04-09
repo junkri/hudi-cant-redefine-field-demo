@@ -37,18 +37,18 @@
             <artifactId>spark-hive_2.12</artifactId>
             <version>3.4.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.parquet</groupId>
-            <artifactId>parquet-avro</artifactId>
-            <version>1.13.1</version>
-            <!--scope>provided</scope-->
-            <!--exclusions>
-                <exclusion>
-                    <groupId>log4j</groupId>
-                    <artifactId>log4j</artifactId>
-                </exclusion>
-            </exclusions-->
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.parquet</groupId>-->
+<!--            <artifactId>parquet-avro</artifactId>-->
+<!--            <version>1.13.1</version>-->
+<!--            &lt;!&ndash;scope>provided</scope&ndash;&gt;-->
+<!--            &lt;!&ndash;exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>log4j</groupId>-->
+<!--                    <artifactId>log4j</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions&ndash;&gt;-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.apache.hudi</groupId>
             <artifactId>hudi-spark3-bundle_2.12</artifactId>
